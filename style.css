@@ -1,3 +1,76 @@
-h1{
-    color: green;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  border: 0;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 23px;
+  font-family: "arial";
+}
+#contentContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+#Abstract {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  border-right: 1px solid white;
+  padding-right: 10px;
+  transition: color 0.5s;
+}
+#abstract:hover {
+  color: #808080;
+}
+#abstract-img img {
+  width: 30px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+#Abstract:hover {
+  color: rgb(173, 170, 170);
+  cursor: pointer;
+}
+#helpCenter:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#headerButton {
+  display: flex;
+  flex-direction: row;
+}
+
+#headerButton button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 150px;
+  transition: background-color 0.5s;
+  font-size: 14px;
+}
+
+#submit {
+  border: 1px solid white;
+  background-color: rgba(128, 128, 128, 0.56);
+}
+
+#sign {
+  background-color: #4c5fd5;
+  font-size: 125px;
+}
+#sign:hover {
+  background-color: white;
+  color: black;
 }
